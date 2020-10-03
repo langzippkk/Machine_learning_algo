@@ -2,7 +2,7 @@ import numpy as np
 import os
 import pandas as pd
 
-
+## mainly use pandas
 def compute_distance(point,centroid):
 	return np.sqrt(np.sum(point-centroid)**2)
 
